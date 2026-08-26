@@ -58,13 +58,9 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 
 ## 📊 GitHub Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Mohammad-Hasan-Kaman&show_icons=true&hide_border=true&theme=tokyonight" height="160" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Hasan-Kaman&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" height="160" alt="Top languages"/>
-</p>
-<p>
-  <img src="https://streak-stats.demolab.com?user=Mohammad-Hasan-Kaman&hide_border=true&theme=tokyonight&locale=en" height="160" alt="GitHub streak"/>
-</p>
+![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA)
+[![Follow](https://img.shields.io/github/follow/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Follow&color=success)](https://github.com/Mohammad-Hasan-Kaman)
+![Profile views](https://komarev.com/ghpvc/?username=Mohammad-Hasan-Kaman&style=for-the-badge&label=Profile+views&color=blueviolet)
 
 ---
 
