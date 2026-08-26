@@ -4,10 +4,37 @@ Full-stack developer focused on **AI applications, developer tooling, and secure
 I build end-to-end software in **Python** and **C#** — from TCP-level encrypted messengers
 to production Django platforms to diagnostics for LLM streaming APIs.
 
+**Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
+**Backend & Web**
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![REST%20APIs](https://img.shields.io/badge/REST_APIs-0969DA?style=flat)
+![nginx](https://img.shields.io/badge/nginx-009639?style=flat&logo=nginx&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-4B8BBE?style=flat&logo=python&logoColor=white)
+
+**Desktop**
+![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat&logo=qt&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-8A2BE2?style=flat)
+![.%20NET%20WinForms](https://img.shields.io/badge/.NET_WinForms-512BD4?style=flat&logo=dotnet&logoColor=white)
+![WebView2](https://img.shields.io/badge/WebView2-0078D7?style=flat&logo=microsoftedge&logoColor=white)
+
+**AI & LLM**
+![OpenAI%20Compatible](https://img.shields.io/badge/OpenAI_Compatible_APIs-412991?style=flat&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat&logo=deepseek&logoColor=white)
+![SSE%20Streaming](https://img.shields.io/badge/SSE_Streaming-EA4AAA?style=flat)
+
+**Ops & Infra**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Cloudflare%20Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)
+![BIND9%20DNS](https://img.shields.io/badge/BIND9_DNS-9CCC65?style=flat)
 
 ---
 
@@ -59,7 +86,7 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 ## 📊 GitHub Stats
 
 ![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA)
-[![Follow](https://img.shields.io/github/follow/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Follow&color=success)](https://github.com/Mohammad-Hasan-Kaman)
+[![Follow on GitHub](https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github)](https://github.com/Mohammad-Hasan-Kaman?tab=followers)
 ![Profile views](https://komarev.com/ghpvc/?username=Mohammad-Hasan-Kaman&style=for-the-badge&label=Profile+views&color=blueviolet)
 
 ---
