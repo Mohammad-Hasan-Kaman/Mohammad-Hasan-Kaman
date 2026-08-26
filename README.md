@@ -1,36 +1,82 @@
 # Hi, I'm Mohammad Hasan Kaman 👋
 
 Full-stack developer focused on **AI applications, developer tooling, and secure systems**.
-I build in **Python** and **C#** - from encrypted desktop messengers to Django platforms
-to diagnostics for LLM streaming APIs.
+I build end-to-end software in **Python** and **C#** — from TCP-level encrypted messengers
+to production Django platforms to diagnostics for LLM streaming APIs.
 
-## 🔧 Featured projects
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-- **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)** - Diagnose broken LLM streams: empty responses, reasoning-only replies, missing `finish_reason`, malformed SSE, truncated tool calls. Zero dependencies.
-- **[kaman-messenger](https://github.com/Mohammad-Hasan-Kaman/kaman-messenger)** - Real-time encrypted desktop messenger in pure Python: TCP sockets, AES (Fernet), bcrypt, SQLite, rate limiting.
-- **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator)** - Desktop app that translates PDF & EPUB books from English to academic Persian using Google Gemini (PyQt6).
-- **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** - Django educational platform with exam analytics, blog, and student resources.
-- **[quran-group-bot](https://github.com/Mohammad-Hasan-Kaman/quran-group-bot)** - Scheduled group-reading bot built on Cloudflare Workers + KV, deployed serverless.
+---
 
-## 🧠 What I work with
+## 🚀 Projects
 
-| Area | Tools |
+### 🤖 AI & Developer Tools
+
+| Project | What it does |
 |---|---|
-| Languages | Python · C# · JavaScript |
-| Backend | Django · REST APIs · raw TCP sockets |
-| Desktop | PyQt6 · CustomTkinter · WinForms (WebView2, Bunifu) |
-| AI engineering | OpenAI-compatible APIs · Gemini · DeepSeek · SSE streaming · tool calling |
-| Ops | Cloudflare Workers/KV · nginx + gunicorn on VPS · BIND9 DNS |
+| **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)** | 🩺 Diagnose why an LLM stream gave you nothing: reasoning-only responses, missing `finish_reason`, malformed SSE, truncated tool calls. Zero dependencies. |
+| **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator)** | Translate PDF & EPUB books from English to academic Persian using Google Gemini. PyQt6 desktop app. |
+| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** | C# desktop chat assistant running DeepSeek models, with Google Cloud Text-to-Speech voice output. |
+
+### 🔐 Security & Networking
+
+| Project | What it does |
+|---|---|
+| **[kaman-messenger](https://github.com/Mohammad-Hasan-Kaman/kaman-messenger)** | Real-time encrypted messenger built from scratch: TCP sockets, AES (Fernet), bcrypt authentication, rate limiting, SQLite storage. CustomTkinter GUI. |
+
+### 🌐 Web Platforms
+
+| Project | What it does |
+|---|---|
+| **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** | Django educational platform: exam analytics dashboard, blog, student resources. |
+| **[dr-kaman-site](https://github.com/Mohammad-Hasan-Kaman/dr-kaman-site)** | Multimedia archive website — audio, video, books, articles. **Live in production at [drkaman.ir](https://drkaman.ir)** (Django + nginx + gunicorn). |
+
+### 🛠 Desktop Tools & Bots
+
+| Project | What it does |
+|---|---|
+| **[youtube-downloader](https://github.com/Mohammad-Hasan-Kaman/youtube-downloader)** | Modern Persian RTL GUI downloader powered by yt-dlp with live progress. |
+| **[kaman-web-browser](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser)** | Lightweight multi-tab Windows browser on Microsoft Edge WebView2 (Chromium). |
+| **[quran-group-bot](https://github.com/Mohammad-Hasan-Kaman/quran-group-bot)** | Serverless weekly Quran reading bot — Cloudflare Workers + KV, cron scheduling, hadith sharing. |
+
+---
+
+## 🧠 Tech Stack
+
+| Area | Technologies |
+|---|---|
+| **Languages** | Python · C# · JavaScript |
+| **Backend** | Django · REST APIs · raw TCP sockets · SQLite |
+| **Desktop** | PyQt6 · CustomTkinter · WinForms (WebView2, Bunifu) |
+| **AI engineering** | OpenAI-compatible APIs · Gemini · DeepSeek · SSE streaming · tool calling |
+| **Ops & Infra** | Cloudflare Workers/KV · nginx + gunicorn on Linux VPS · BIND9 DNS · Git |
+
+---
+
+## 📊 GitHub Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohammad-Hasan-Kaman&show_icons=true&hide_border=true&theme=tokyonight" height="160" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Hasan-Kaman&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" height="160" alt="Top languages"/>
+</p>
+<p>
+  <img src="https://streak-stats.demolab.com?user=Mohammad-Hasan-Kaman&hide_border=true&theme=tokyonight&locale=en" height="160" alt="GitHub streak"/>
+</p>
+
+---
 
 ## 📌 Currently
 
-- Maintaining **agent-stream-doctor**: turning real-world debugging sessions with LLM
-  routers into an open-source diagnostic toolkit
-- Growing a full-stack portfolio: secure messenger, AI desktop apps, and a live
-  production Django site ([drkaman.ir](https://drkaman.ir))
-- Open to collaborating on Python developer tools, AI agents, and open source
+- 🔧 Maintaining **agent-stream-doctor** — turning real-world LLM-router debugging sessions into an open-source diagnostic toolkit
+- 🏗 Growing my portfolio: secure messaging, AI desktop applications, and a live production Django site
+- 🤝 Open to collaborating on Python developer tools, AI agents, and open-source projects
+
+---
 
 ## 📫 Find me
 
-- X/Twitter: [@kaman_hasan0975](https://x.com/kaman_hasan0975)
-- Email: mohammadhasankaman@gmail.com
+[![X/Twitter](https://img.shields.io/badge/X-@kaman_hasan0975-black?style=flat&logo=x)](https://x.com/kaman_hasan0975)
+[![Email](https://img.shields.io/badge/Email-mohammadhasankaman%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:mohammadhasankaman@gmail.com)
