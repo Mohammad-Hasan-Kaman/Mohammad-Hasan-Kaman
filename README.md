@@ -4,6 +4,8 @@ Full-stack developer focused on **AI applications, developer tooling, and secure
 I build end-to-end software in **Python** and **C#** — from TCP-level encrypted messengers
 to production Django platforms to diagnostics for LLM streaming APIs.
 
+🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)**
+
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
@@ -60,6 +62,7 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 |---|---|
 | **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** | Django educational platform: exam analytics dashboard, blog, student resources. |
 | **[dr-kaman-site](https://github.com/Mohammad-Hasan-Kaman/dr-kaman-site)** | Multimedia archive website — audio, video, books, articles. **Live in production at [drkaman.ir](https://drkaman.ir)** (Django + nginx + gunicorn). |
+| **[mhkaman.com](https://mhkaman.com)** | My personal portfolio — trilingual (EN/FA/AR) Django site with built-in analytics and auto-generated PDF CVs. **Live at [mhkaman.com](https://mhkaman.com)**. |
 
 ### 🛠 Desktop Tools & Bots
 
@@ -94,13 +97,15 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 ## 📌 Currently
 
 - 🔧 Maintaining **agent-stream-doctor** — turning real-world LLM-router debugging sessions into an open-source diagnostic toolkit
-- 🏗 Growing my portfolio: secure messaging, AI desktop applications, and a live production Django site
+- 🌐 Just launched my personal portfolio: **[mhkaman.com](https://mhkaman.com)** — trilingual Django site, built-in analytics, automated SSL
+- 🏗 Growing my open-source work: secure messaging, AI desktop applications, developer tooling
 - 🤝 Open to collaborating on Python developer tools, AI agents, and open-source projects
 
 ---
 
 ## 📫 Find me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-mhkaman.com-0969DA?style=flat&logo=googlechrome&logoColor=white)](https://mhkaman.com)
 [![X/Twitter](https://img.shields.io/badge/X-@kaman_hasan0975-black?style=flat&logo=x)](https://x.com/kaman_hasan0975)
 [![Telegram](https://img.shields.io/badge/Telegram-@mohaka0975-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/mohaka0975)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kaman--programmer-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaman-programmer)
