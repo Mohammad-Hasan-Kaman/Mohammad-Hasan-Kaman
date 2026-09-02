@@ -98,6 +98,7 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 
 - 🔧 Maintaining **agent-stream-doctor** — turning real-world LLM-router debugging sessions into an open-source diagnostic toolkit
 - 🌐 Just launched my personal portfolio: **[mhkaman.com](https://mhkaman.com)** — trilingual Django site, built-in analytics, automated SSL
+- ✍️ Writing about AI engineering — latest: [Why is my LLM stream empty?](https://dev.to/mohammadhasankaman/why-is-my-llm-stream-empty-a-field-guide-to-broken-sse-responses-4l0k) (also on Dev.to)
 - 🏗 Growing my open-source work: secure messaging, AI desktop applications, developer tooling
 - 🤝 Open to collaborating on Python developer tools, AI agents, and open-source projects
 
@@ -106,6 +107,7 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 ## 📫 Find me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-mhkaman.com-0969DA?style=flat&logo=googlechrome&logoColor=white)](https://mhkaman.com)
+[![Dev.to](https://img.shields.io/badge/Dev.to-@mohammadhasankaman-0A0A0A?style=flat&logo=devdotto&logoColor=white)](https://dev.to/mohammadhasankaman)
 [![X/Twitter](https://img.shields.io/badge/X-@kaman_hasan0975-black?style=flat&logo=x)](https://x.com/kaman_hasan0975)
 [![Telegram](https://img.shields.io/badge/Telegram-@mohaka0975-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/mohaka0975)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kaman--programmer-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaman-programmer)
