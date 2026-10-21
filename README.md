@@ -17,6 +17,8 @@ production Django platforms.
 
 ## 🚀 Flagship Projects
 
+*Ordered by GitHub stars — most-starred first.*
+
 ### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 48 · v3.0.0
 
 **Translate whole books, not sentences.** A PyQt6 desktop studio that turns PDF & EPUB
@@ -38,7 +40,25 @@ entire book unattended.
   `.exe` in [releases](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator/releases)
   (current: **v3.0.0**).
 
-### 🩺 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1 · v1.0.0
+### 🩺 [agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor) · ⭐ 5 · v0.1.0
+
+**Diagnose why your LLM stream gave you nothing.** A zero-dependency Python CLI that
+reads raw SSE chat-completion captures and tells you exactly what went wrong — instead
+of you staring at an empty response box.
+
+- **12 checks, each with an explanation** — `empty-stream`, `reasoning-only-response`,
+  `missing-finish-reason`, `malformed-sse-line`, `invalid-json-payload`,
+  `data-after-done`, `incomplete-tool-call`, `unparseable-tool-arguments` and more.
+- **Two ways in** — `record` performs a live streaming call and saves the raw SSE;
+  `analyze` diagnoses a capture you already have. Works fully offline.
+- **Tolerant parser** — a diagnostic tool that crashes on malformed input is useless, so
+  every deviation becomes a finding instead of an exception.
+- **Script-friendly** — exit codes `0` healthy / `1` problems found / `2` usage error,
+  plus `--json` for CI.
+- **Usable as a library** — `from agent_stream_doctor import diagnose`.
+- Core is **stdlib only**; `--record` is the single optional dependency.
+
+### 🤖 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1 · v1.0.0
 
 **An AI intake system for counseling centers — shipped as a Persian RTL chat widget.**
 The AI *is* the product: it talks to every visitor, runs the GHQ-28 wellbeing screening,
@@ -81,12 +101,13 @@ feedback that retrains the matching engine.
 
 ## 📂 All Projects
 
+*The rest of the portfolio, by category.*
+
 ### 🧰 AI & Developer Tools
 
 | Project | What it does |
 |---|---|
-| **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)** · ⭐ 5 | Zero-dependency CLI that diagnoses why an LLM stream gave you nothing — reasoning-only replies, missing `finish_reason`, malformed SSE, truncated tool calls. Works offline on captured streams. |
-| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** · ⭐ 1 | C# WinForms chat assistant (DeepSeek via OpenModel API) with native Windows text-to-speech and a Bunifu-styled UI. |
+| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** · ⭐ 1 | C# WinForms chat assistant (DeepSeek via OpenModel API) with native Windows text-to-speech, embedded send/receive sounds, and an API key resolved at runtime — env var, `app.config` or `%APPDATA%`. Single dependency-free `.exe`. |
 
 ### 🔐 Security & Networking
 
@@ -107,7 +128,7 @@ feedback that retrains the matching engine.
 | Project | What it does |
 |---|---|
 | **[quran-group-bot](https://github.com/Mohammad-Hasan-Kaman/quran-group-bot)** · ⭐ 1 | Serverless Bale bot that runs a 30-person weekly Quran juz reading circle — Cloudflare Workers + KV, cron-scheduled posts, rotating juz assignment, weekly hadith. |
-| **[youtube-downloader](https://github.com/Mohammad-Hasan-Kaman/youtube-downloader)** · ⭐ 1 | Persian RTL GUI downloader on yt-dlp with a 3-stage live progress bar, quality/format selection and browser-cookie support. |
+| **[youtube-downloader](https://github.com/Mohammad-Hasan-Kaman/youtube-downloader)** · ⭐ 1 | Windows YouTube downloader on yt-dlp with a Persian-language dark-mode GUI, three live progress bars, video/audio format selection and browser-cookie support. |
 | **[kaman-web-browser](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser)** · ⭐ 1 | Lightweight multi-tab Windows browser on Microsoft Edge WebView2 (Chromium) with smart URL-vs-search routing. |
 
 ---
@@ -118,7 +139,7 @@ feedback that retrains the matching engine.
 |---|---|
 | **Languages** | Python · C# · JavaScript |
 | **Backend** | Django · FastAPI · REST APIs · raw TCP sockets · SQLite |
-| **Desktop** | PyQt6 · CustomTkinter · WinForms (WebView2, Bunifu) |
+| **Desktop** | PyQt6 · CustomTkinter · WinForms (WebView2) |
 | **AI engineering** | OpenAI-compatible APIs · Gemini · DeepSeek · GHQ-28 screening · concept extraction · SSE streaming · tool calling |
 | **Ops & Infra** | Cloudflare Workers/KV · nginx + gunicorn on Linux VPS · BIND9 DNS · Git |
 
