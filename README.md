@@ -86,7 +86,7 @@ feedback that retrains the matching engine.
 | Project | What it does |
 |---|---|
 | **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)** · ⭐ 5 | Zero-dependency CLI that diagnoses why an LLM stream gave you nothing — reasoning-only replies, missing `finish_reason`, malformed SSE, truncated tool calls. Works offline on captured streams. |
-| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** · ⭐ 1 | C# WinForms chat assistant (DeepSeek via OpenModel API) with Google Cloud TTS and native Windows TTS fallback. Dark Bunifu UI. |
+| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** · ⭐ 1 | C# WinForms chat assistant (DeepSeek via OpenModel API) with native Windows text-to-speech and a Bunifu-styled UI. |
 
 ### 🔐 Security & Networking
 
