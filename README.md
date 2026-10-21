@@ -1,5 +1,7 @@
 # Hi, I'm Mohammad Hasan Kaman 👋
 
+<img align="right" width="150" height="150" alt="Mohammad Hasan Kaman" src="https://mhkaman.com/media/profile/photo.jpg" />
+
 Full-stack developer building **AI applications, developer tooling, and secure systems**.
 I ship end-to-end software in **Python**, **C#** and **Django** — from AI-driven clinical
 screening pipelines and encrypted desktop messengers to diagnostics for LLM streaming APIs
@@ -143,6 +145,19 @@ feedback that retrains the matching engine.
 
 ---
 
+## ✍️ Writing
+
+*Technical articles on the live portfolio — the reasoning behind the flagship projects.*
+
+| Article | Covers |
+|---|---|
+| **[📖 Building a Persian-first desktop translator for PDF and EPUB books](https://mhkaman.com/en/articles/building-a-persian-first-desktop-translator-for-pdf-and-epub-books/)** | Why a 300-page book fails in a chat window — chunking, rolling context, and a per-book structure template. |
+| **[🧠 Building an AI counseling widget that matches visitors to the right counselor](https://mhkaman.com/en/articles/building-an-ai-counseling-widget-that-matches-visitors-to-counselors/)** | Replacing the form-and-phone funnel with a conversational intake — without a hosted LLM. |
+| **[💬 Shipping a counseling bot on Bale](https://mhkaman.com/en/articles/shipping-a-counseling-bot-on-bale-with-ghq-28-screening-and-self-learning-matching/)** | GHQ-28 screening, self-learning matching, and 12 conversation states inside a messenger. |
+| **[🩺 Why is my LLM stream empty? A field guide to broken SSE responses](https://mhkaman.com/en/articles/why-is-my-llm-stream-empty/)** | The four failure modes behind empty streaming responses — and the tool that diagnoses them. |
+
+---
+
 ## 🧠 Tech Stack
 
 | Area | Technologies |
@@ -169,11 +184,12 @@ feedback that retrains the matching engine.
 - 🧠 Shipping **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) v3** — whole-book Persian translation with a QC loop and DPAPI-encrypted keys
 - 🩺 Running **[ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget)** and **[ai-counseling-bot](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-bot)** in production for counseling centers — live at **[kahaai.ir](https://kahaai.ir)**
 - 🩺 Turning real-world LLM-router debugging sessions into **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)**
+- 🎓 Finishing secondary education (graduation expected mid-2028) while freelancing for international clients
 - 🤝 Open to collaborating on Python developer tools, AI agents and open-source projects
 
 ---
 
-## 📫 Find me
+## 📬 Find me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-mhkaman.com-0969DA?style=flat&logo=googlechrome&logoColor=white)](https://mhkaman.com)
 [![Kahaai](https://img.shields.io/badge/Live%20Product-kahaai.ir-0969DA?style=flat&logo=googlechrome&logoColor=white)](https://kahaai.ir)
