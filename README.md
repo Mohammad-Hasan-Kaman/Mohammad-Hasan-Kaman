@@ -13,7 +13,6 @@ and production web platforms.
 [![Stars](https://img.shields.io/github/stars/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Total%20Stars&color=yellow)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
 [![Forks](https://img.shields.io/github/forks/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Forks&color=blue)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
 [![Repos](https://img.shields.io/github/repos/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Public%20Repos&color=0969DA)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
-[![Profile views](https://komarev.com/ghpvc/?username=Mohammad-Hasan-Kaman&style=for-the-badge&label=Profile%20views&color=blueviolet&v=2)](https://github.com/Mohammad-Hasan-Kaman)
 
 ---
 
