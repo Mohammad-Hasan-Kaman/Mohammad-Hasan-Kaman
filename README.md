@@ -7,11 +7,17 @@ production Django platforms.
 
 🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)**
 
+### 🧩 Languages
+
+![Python](https://img.shields.io/badge/Python-58.98%25-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-20.32%25-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-10.16%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-8.89%25-1572B6?style=for-the-badge&logo=css&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-1.61%25-239120?style=for-the-badge&logo=csharp&logoColor=white)
+
+*Byte share across the 12 project repositories, straight from the GitHub API.*
+
 ---
 
 ## 🚀 Flagship Projects
 
-### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 48
+### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 48 · v3.0.0
 
 **Translate whole books, not sentences.** A PyQt6 desktop studio that turns PDF & EPUB
 books into fluent academic Persian — and back into English — one page at a time or an
@@ -22,15 +28,17 @@ entire book unattended.
 - **Structure-aware** — per-book templates for headings, labels and page furniture;
   headers/footers are detected and stripped before translation.
 - **Quality pipeline** — a QC review loop, per-page chunking with context rolling, and
-  scanned-page OCR for image-only PDFs.
+  scanned-page support — a page with no text layer is sent to the model as an
+  image and transcribed before translation.
 - **RTL export** — HTML output shaped for right-to-left reading, plus EPUB.
 - **Privacy by design** — API keys encrypted with Windows DPAPI (labelled base64
   fallback), stored locally; the only network traffic is to the provider you configure.
 - **303 offline tests** that run headlessly — the core is deliberately Qt-free.
-- Works with **Gemini** or any **OpenAI-compatible** server. Ships as a signed-off
-  Windows `.exe` in [releases](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator/releases).
+- Works with **Gemini** or any **OpenAI-compatible** server. Ships as a Windows
+  `.exe` in [releases](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator/releases)
+  (current: **v3.0.0**).
 
-### 🩺 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1
+### 🩺 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1 · v1.0.0
 
 **An AI intake system for counseling centers — shipped as a Persian RTL chat widget.**
 The AI *is* the product: it talks to every visitor, runs the GHQ-28 wellbeing screening,
@@ -52,7 +60,7 @@ extracts clinical concepts from what they say, and matches them to the right con
 
 🌐 Live product: **[kahaai.ir](https://kahaai.ir)**
 
-### 💬 [ai-counseling-bot](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-bot) · ⭐ 1
+### 💬 [ai-counseling-bot](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-bot) · ⭐ 1 · v1.0.0
 
 **The same intelligence, as a Bale messenger bot.** Guided intake → GHQ-28 screening →
 a self-learning engine ranks the counselors that fit the person's situation, and admins
