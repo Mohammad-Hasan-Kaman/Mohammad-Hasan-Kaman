@@ -1,17 +1,25 @@
 # Hi, I'm Mohammad Hasan Kaman 👋
 
 Full-stack developer building **AI applications, developer tooling, and secure systems**.
-I ship end-to-end software in **Python** and **C#** — from AI-driven clinical screening
-pipelines and encrypted desktop messengers to diagnostics for LLM streaming APIs and
-production Django platforms.
+I ship end-to-end software in **Python**, **C#** and **Django** — from AI-driven clinical
+screening pipelines and encrypted desktop messengers to diagnostics for LLM streaming APIs
+and production web platforms.
 
-🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)**
+🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)** · **Live product: [kahaai.ir](https://kahaai.ir)** · 📄 **CV: [mhkaman.com/en/cv](https://mhkaman.com/en/cv)**
 
-### 🧩 Languages
+[![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA)](https://github.com/Mohammad-Hasan-Kaman?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Total%20Stars&color=yellow)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
+[![Forks](https://img.shields.io/github/forks/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Forks&color=blue)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
+[![Repos](https://img.shields.io/github/repos/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Public%20Repos&color=0969DA)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
+[![Profile views](https://komarev.com/ghpvc/?username=Mohammad-Hasan-Kaman&style=for-the-badge&label=Profile%20views&color=blueviolet)](https://github.com/Mohammad-Hasan-Kaman)
 
-![Python](https://img.shields.io/badge/Python-58.98%25-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-20.32%25-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-10.16%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-8.89%25-1572B6?style=for-the-badge&logo=css&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-1.61%25-239120?style=for-the-badge&logo=csharp&logoColor=white)
+---
 
-*Byte share across the 12 project repositories, straight from the GitHub API.*
+## 🧩 Languages
+
+![Python](https://img.shields.io/badge/Python-58.48%25-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-20.15%25-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-10.07%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-8.82%25-1572B6?style=for-the-badge&logo=css&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-2.45%25-239120?style=for-the-badge&logo=csharp&logoColor=white)
+
+*Byte share across the 12 project repositories, from the GitHub `/languages` API.*
 
 ---
 
@@ -48,7 +56,9 @@ of you staring at an empty response box.
 
 - **12 checks, each with an explanation** — `empty-stream`, `reasoning-only-response`,
   `missing-finish-reason`, `malformed-sse-line`, `invalid-json-payload`,
-  `data-after-done`, `incomplete-tool-call`, `unparseable-tool-arguments` and more.
+  `data-after-done`, `incomplete-tool-call`, `unparseable-tool-arguments`,
+  `empty-content-stream`, `inconsistent-finish-reason`, `role-not-announced` and
+  `stream-ended-without-done`.
 - **Two ways in** — `record` performs a live streaming call and saves the raw SSE;
   `analyze` diagnoses a capture you already have. Works fully offline.
 - **Tolerant parser** — a diagnostic tool that crashes on malformed input is useless, so
@@ -121,7 +131,7 @@ feedback that retrains the matching engine.
 |---|---|
 | **[kaman-portfolio](https://github.com/Mohammad-Hasan-Kaman/kaman-portfolio)** · ⭐ 1 | Trilingual (EN/FA/AR) Django portfolio — every page editable from admin, trilingual PDF CV generator with RTL shaping, privacy-friendly server-side analytics, sitemap/robots/llms.txt built in. **Live at [mhkaman.com](https://mhkaman.com)** |
 | **[dr-kaman-site](https://github.com/Mohammad-Hasan-Kaman/dr-kaman-site)** · ⭐ 1 | Multimedia archive for Dr. Mohammad Reza Kaman — audio, video, books, articles. Django + nginx + gunicorn on a Linux VPS. **Live at [drkaman.ir](https://drkaman.ir)** |
-| **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** · ⭐ 1 | Django educational platform: exam-analysis dashboard, blog, student resources, Jalali calendar, `django-allauth` accounts. |
+| **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** · ⭐ 1 | Django educational platform: exam & competition analysis with visual dashboards, an educational blog, a review/feedback system, Jalali (Persian) calendar support and `django-allauth` accounts. |
 
 ### 🖥 Desktop Tools & Bots
 
@@ -137,11 +147,11 @@ feedback that retrains the matching engine.
 
 | Area | Technologies |
 |---|---|
-| **Languages** | Python · C# · JavaScript |
+| **Languages** | Python · C# · JavaScript · HTML · CSS |
 | **Backend** | Django · FastAPI · REST APIs · raw TCP sockets · SQLite |
 | **Desktop** | PyQt6 · CustomTkinter · WinForms (WebView2) |
 | **AI engineering** | OpenAI-compatible APIs · Gemini · DeepSeek · GHQ-28 screening · concept extraction · SSE streaming · tool calling |
-| **Ops & Infra** | Cloudflare Workers/KV · nginx + gunicorn on Linux VPS · BIND9 DNS · Git |
+| **Ops & Infra** | Cloudflare Workers/KV · nginx + gunicorn on Linux VPS · BIND9 DNS · Docker · Git |
 
 ---
 
@@ -151,10 +161,6 @@ feedback that retrains the matching engine.
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=Mohammad-Hasan-Kaman&layout=compact&theme=tokyonight)
 
 ![Streak](https://streak-stats.demolab.com?user=Mohammad-Hasan-Kaman&theme=tokyonight)
-
-![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA&cacheSeconds=300)
-[![Follow on GitHub](https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github)](https://github.com/Mohammad-Hasan-Kaman?tab=followers)
-![Profile views](https://komarev.com/ghpvc/?username=Mohammad-Hasan-Kaman&style=for-the-badge&label=Profile+views&color=blueviolet&cacheSeconds=300)
 
 ---
 
@@ -170,7 +176,19 @@ feedback that retrains the matching engine.
 ## 📫 Find me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-mhkaman.com-0969DA?style=flat&logo=googlechrome&logoColor=white)](https://mhkaman.com)
+[![Kahaai](https://img.shields.io/badge/Live%20Product-kahaai.ir-0969DA?style=flat&logo=googlechrome&logoColor=white)](https://kahaai.ir)
 [![X/Twitter](https://img.shields.io/badge/X-@kaman_hasan0975-black?style=flat&logo=x)](https://x.com/kaman_hasan0975)
 [![Telegram](https://img.shields.io/badge/Telegram-@mohaka0975-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/mohaka0975)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kaman--programmer-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaman-programmer)
 [![Email](https://img.shields.io/badge/Email-mohammadhasankaman%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:mohammadhasankaman@gmail.com)
+
+---
+
+## 📄 License
+
+All repositories in this profile are released under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Issues and pull requests are welcome on any repository here — see each project's
+`CONTRIBUTING.md` for the specifics.
