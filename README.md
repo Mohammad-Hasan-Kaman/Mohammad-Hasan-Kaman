@@ -40,7 +40,7 @@ entire book unattended.
   `.exe` in [releases](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator/releases)
   (current: **v3.0.0**).
 
-### 🩺 [agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor) · ⭐ 5 · v0.1.0
+### 🩺 [agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor) · ⭐ 5 · v0.2.0
 
 **Diagnose why your LLM stream gave you nothing.** A zero-dependency Python CLI that
 reads raw SSE chat-completion captures and tells you exactly what went wrong — instead
