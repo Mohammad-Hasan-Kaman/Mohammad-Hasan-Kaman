@@ -1,76 +1,106 @@
 # Hi, I'm Mohammad Hasan Kaman 👋
 
-Full-stack developer focused on **AI applications, developer tooling, and secure systems**.
-I build end-to-end software in **Python** and **C#** — from TCP-level encrypted messengers
-to production Django platforms to diagnostics for LLM streaming APIs.
+Full-stack developer building **AI applications, developer tooling, and secure systems**.
+I ship end-to-end software in **Python** and **C#** — from AI-driven clinical screening
+pipelines and encrypted desktop messengers to diagnostics for LLM streaming APIs and
+production Django platforms.
 
 🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)**
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+---
 
-**Backend & Web**
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![REST%20APIs](https://img.shields.io/badge/REST_APIs-0969DA?style=flat)
-![nginx](https://img.shields.io/badge/nginx-009639?style=flat&logo=nginx&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-4B8BBE?style=flat&logo=python&logoColor=white)
+## 🚀 Flagship Projects
 
-**Desktop**
-![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat&logo=qt&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-8A2BE2?style=flat)
-![.%20NET%20WinForms](https://img.shields.io/badge/.NET_WinForms-512BD4?style=flat&logo=dotnet&logoColor=white)
-![WebView2](https://img.shields.io/badge/WebView2-0078D7?style=flat&logo=microsoftedge&logoColor=white)
+### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 48
 
-**AI & LLM**
-![OpenAI%20Compatible](https://img.shields.io/badge/OpenAI_Compatible_APIs-412991?style=flat&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat&logo=deepseek&logoColor=white)
-![SSE%20Streaming](https://img.shields.io/badge/SSE_Streaming-EA4AAA?style=flat)
+**Translate whole books, not sentences.** A PyQt6 desktop studio that turns PDF & EPUB
+books into fluent academic Persian — and back into English — one page at a time or an
+entire book unattended.
 
-**Ops & Infra**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Cloudflare%20Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)
-![BIND9%20DNS](https://img.shields.io/badge/BIND9_DNS-9CCC65?style=flat)
+- **Whole-book automation** with pause/resume across restarts and app updates; every
+  finished page is saved instantly to a per-file job store.
+- **Structure-aware** — per-book templates for headings, labels and page furniture;
+  headers/footers are detected and stripped before translation.
+- **Quality pipeline** — a QC review loop, per-page chunking with context rolling, and
+  scanned-page OCR for image-only PDFs.
+- **RTL export** — HTML output shaped for right-to-left reading, plus EPUB.
+- **Privacy by design** — API keys encrypted with Windows DPAPI (labelled base64
+  fallback), stored locally; the only network traffic is to the provider you configure.
+- **303 offline tests** that run headlessly — the core is deliberately Qt-free.
+- Works with **Gemini** or any **OpenAI-compatible** server. Ships as a signed-off
+  Windows `.exe` in [releases](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator/releases).
+
+### 🩺 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1
+
+**An AI intake system for counseling centers — shipped as a Persian RTL chat widget.**
+The AI *is* the product: it talks to every visitor, runs the GHQ-28 wellbeing screening,
+extracts clinical concepts from what they say, and matches them to the right consultant.
+
+- **AI triage assistant** — computes each next question from the visitor's previous
+  answers instead of following a rigid form.
+- **GHQ-28 screening** — 28 questions across four subscales, scored and interpreted
+  server-side.
+- **Consultant matching** — ranks available consultants by gender, branch, age, session
+  type, extracted concepts, screening results and live appointment slots, with a
+  "why this match" explanation.
+- **Self-learning** — success/failure reports re-weight the engine per tenant.
+- **Multi-tenant by design** — API keys, admin accounts, allowed domains, flows and
+  consultant data are isolated per tenant; one `<script>` tag embeds it.
+- **Fully local AI** — no third-party LLM, no per-message cost, no visitor data leaves
+  your server.
+- FastAPI + SQLite, Persian-first RTL UI, background availability crawler, Excel export.
+
+🌐 Live product: **[kahaai.ir](https://kahaai.ir)**
+
+### 💬 [ai-counseling-bot](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-bot) · ⭐ 1
+
+**The same intelligence, as a Bale messenger bot.** Guided intake → GHQ-28 screening →
+a self-learning engine ranks the counselors that fit the person's situation, and admins
+run everything from inside the chat: statistics, Excel import/export, broadcasts, and
+feedback that retrains the matching engine.
+
+- **SpiralMatchEngine** — hard filters (gender, branch, age bounds), then weighted
+  scoring across topic fit, concept match and free-appointment count.
+- **Concept extraction** — free text mapped to clinical concepts via a synonym
+  dictionary with Persian/Arabic variants.
+- **Name normalization** — fuzzy counselor-name matching, so user input never has to
+  be exact.
+- **Availability awareness** — a crawler refreshes open slots every 2 hours so the
+  engine prefers counselors who can actually be booked.
+- No external API, no cloud LLM, no per-message cost.
 
 ---
 
-## 🚀 Projects
+## 📂 All Projects
 
-### 🤖 AI & Developer Tools
+### 🧰 AI & Developer Tools
 
 | Project | What it does |
 |---|---|
-| **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)** | 🩺 Diagnose why an LLM stream gave you nothing: reasoning-only responses, missing `finish_reason`, malformed SSE, truncated tool calls. Zero dependencies. |
-| **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator)** | Translate PDF & EPUB books from English to academic Persian using Google Gemini. PyQt6 desktop app. |
-| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** | C# desktop chat assistant running DeepSeek models, with Google Cloud Text-to-Speech voice output. |
+| **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)** · ⭐ 5 | Zero-dependency CLI that diagnoses why an LLM stream gave you nothing — reasoning-only replies, missing `finish_reason`, malformed SSE, truncated tool calls. Works offline on captured streams. |
+| **[kaman-ai-chat](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-chat)** · ⭐ 1 | C# WinForms chat assistant (DeepSeek via OpenModel API) with Google Cloud TTS and native Windows TTS fallback. Dark Bunifu UI. |
 
 ### 🔐 Security & Networking
 
 | Project | What it does |
 |---|---|
-| **[kaman-messenger](https://github.com/Mohammad-Hasan-Kaman/kaman-messenger)** | Real-time encrypted messenger built from scratch: TCP sockets, AES (Fernet), bcrypt authentication, rate limiting, SQLite storage. CustomTkinter GUI. |
+| **[kaman-messenger](https://github.com/Mohammad-Hasan-Kaman/kaman-messenger)** · ⭐ 1 | Real-time encrypted messenger built from scratch: TCP sockets, Fernet (AES) traffic encryption, bcrypt auth, rate limiting, SQLite storage, CustomTkinter GUI. Ships as client + server `.exe`. |
 
 ### 🌐 Web Platforms
 
 | Project | What it does |
 |---|---|
-| **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** | Django educational platform: exam analytics dashboard, blog, student resources. |
-| **[dr-kaman-site](https://github.com/Mohammad-Hasan-Kaman/dr-kaman-site)** | Multimedia archive website — audio, video, books, articles. **Live in production at [drkaman.ir](https://drkaman.ir)** (Django + nginx + gunicorn). |
-| **[mhkaman.com](https://mhkaman.com)** | My personal portfolio — trilingual (EN/FA/AR) Django site with built-in analytics and auto-generated PDF CVs. **Live at [mhkaman.com](https://mhkaman.com)**. |
+| **[kaman-portfolio](https://github.com/Mohammad-Hasan-Kaman/kaman-portfolio)** · ⭐ 1 | Trilingual (EN/FA/AR) Django portfolio — every page editable from admin, trilingual PDF CV generator with RTL shaping, privacy-friendly server-side analytics, sitemap/robots/llms.txt built in. **Live at [mhkaman.com](https://mhkaman.com)** |
+| **[dr-kaman-site](https://github.com/Mohammad-Hasan-Kaman/dr-kaman-site)** · ⭐ 1 | Multimedia archive for Dr. Mohammad Reza Kaman — audio, video, books, articles. Django + nginx + gunicorn on a Linux VPS. **Live at [drkaman.ir](https://drkaman.ir)** |
+| **[planikaa-portal](https://github.com/Mohammad-Hasan-Kaman/planikaa-portal)** · ⭐ 1 | Django educational platform: exam-analysis dashboard, blog, student resources, Jalali calendar, `django-allauth` accounts. |
 
-### 🛠 Desktop Tools & Bots
+### 🖥 Desktop Tools & Bots
 
 | Project | What it does |
 |---|---|
-| **[youtube-downloader](https://github.com/Mohammad-Hasan-Kaman/youtube-downloader)** | Modern Persian RTL GUI downloader powered by yt-dlp with live progress. |
-| **[kaman-web-browser](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser)** | Lightweight multi-tab Windows browser on Microsoft Edge WebView2 (Chromium). |
-| **[quran-group-bot](https://github.com/Mohammad-Hasan-Kaman/quran-group-bot)** | Serverless weekly Quran reading bot — Cloudflare Workers + KV, cron scheduling, hadith sharing. |
+| **[quran-group-bot](https://github.com/Mohammad-Hasan-Kaman/quran-group-bot)** · ⭐ 1 | Serverless Bale bot that runs a 30-person weekly Quran juz reading circle — Cloudflare Workers + KV, cron-scheduled posts, rotating juz assignment, weekly hadith. |
+| **[youtube-downloader](https://github.com/Mohammad-Hasan-Kaman/youtube-downloader)** · ⭐ 1 | Persian RTL GUI downloader on yt-dlp with a 3-stage live progress bar, quality/format selection and browser-cookie support. |
+| **[kaman-web-browser](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser)** · ⭐ 1 | Lightweight multi-tab Windows browser on Microsoft Edge WebView2 (Chromium) with smart URL-vs-search routing. |
 
 ---
 
@@ -79,14 +109,19 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 | Area | Technologies |
 |---|---|
 | **Languages** | Python · C# · JavaScript |
-| **Backend** | Django · REST APIs · raw TCP sockets · SQLite |
+| **Backend** | Django · FastAPI · REST APIs · raw TCP sockets · SQLite |
 | **Desktop** | PyQt6 · CustomTkinter · WinForms (WebView2, Bunifu) |
-| **AI engineering** | OpenAI-compatible APIs · Gemini · DeepSeek · SSE streaming · tool calling |
+| **AI engineering** | OpenAI-compatible APIs · Gemini · DeepSeek · GHQ-28 screening · concept extraction · SSE streaming · tool calling |
 | **Ops & Infra** | Cloudflare Workers/KV · nginx + gunicorn on Linux VPS · BIND9 DNS · Git |
 
 ---
 
 ## 📊 GitHub Stats
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Mohammad-Hasan-Kaman&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=Mohammad-Hasan-Kaman&layout=compact&theme=tokyonight)
+
+![Streak](https://streak-stats.demolab.com?user=Mohammad-Hasan-Kaman&theme=tokyonight)
 
 ![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA&cacheSeconds=300)
 [![Follow on GitHub](https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github)](https://github.com/Mohammad-Hasan-Kaman?tab=followers)
@@ -96,10 +131,10 @@ to production Django platforms to diagnostics for LLM streaming APIs.
 
 ## 📌 Currently
 
-- 🔧 Maintaining **agent-stream-doctor** — turning real-world LLM-router debugging sessions into an open-source diagnostic toolkit
-- 🌐 Just launched my personal portfolio: **[mhkaman.com](https://mhkaman.com)** — trilingual Django site, built-in analytics, automated SSL
-- 🏗 Growing my open-source work: secure messaging, AI desktop applications, developer tooling
-- 🤝 Open to collaborating on Python developer tools, AI agents, and open-source projects
+- 🧠 Shipping **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) v3** — whole-book Persian translation with a QC loop and DPAPI-encrypted keys
+- 🩺 Running **[ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget)** and **[ai-counseling-bot](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-bot)** in production for counseling centers — live at **[kahaai.ir](https://kahaai.ir)**
+- 🩺 Turning real-world LLM-router debugging sessions into **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)**
+- 🤝 Open to collaborating on Python developer tools, AI agents and open-source projects
 
 ---
 
