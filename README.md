@@ -1,7 +1,5 @@
 # Hi, I'm Mohammad Hasan Kaman 👋
 
-<img align="right" width="150" height="150" alt="Mohammad Hasan Kaman" src="https://mhkaman.com/media/profile/photo.jpg" />
-
 Full-stack developer building **AI applications, developer tooling, and secure systems**.
 I ship end-to-end software in **Python**, **C#** and **Django** — from AI-driven clinical
 screening pipelines and encrypted desktop messengers to diagnostics for LLM streaming APIs
