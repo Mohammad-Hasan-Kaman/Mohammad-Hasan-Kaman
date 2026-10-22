@@ -9,8 +9,8 @@ and production web platforms.
 
 [![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA)](https://github.com/Mohammad-Hasan-Kaman?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Total%20Stars&color=yellow)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
-[![Forks](https://img.shields.io/github/forks/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Forks&color=blue)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
-[![Repos](https://img.shields.io/github/repos/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Public%20Repos&color=0969DA)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
+[![Forks](https://img.shields.io/github/forks/Mohammad-Hasan-Kaman/kaman-ai-translator?style=for-the-badge&logo=github&label=Top%20Repo%20Forks&color=blue)](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator)
+[![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMohammad-Hasan-Kaman&query=%24.public_repos&label=Public%20Repos&color=0969DA&style=for-the-badge&logo=github)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
 
 ---
 
