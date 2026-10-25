@@ -5,7 +5,7 @@ I ship end-to-end software in **Python**, **C#** and **Django** — from AI-driv
 screening pipelines and encrypted desktop messengers to diagnostics for LLM streaming APIs
 and production web platforms.
 
-🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)** · **Live product: [kahaai.ir](https://kahaai.ir)** · 📄 **CV: [mhkaman.com/en/cv](https://mhkaman.com/en/cv)**
+🌐 **Portfolio: [mhkaman.com](https://mhkaman.com)**  · 📄 **CV: [mhkaman.com/en/cv](https://mhkaman.com/en/cv)**
 
 [![Followers](https://img.shields.io/github/followers/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Followers&color=0969DA)](https://github.com/Mohammad-Hasan-Kaman?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Mohammad-Hasan-Kaman?style=for-the-badge&logo=github&label=Total%20Stars&color=yellow)](https://github.com/Mohammad-Hasan-Kaman?tab=repositories)
@@ -26,7 +26,7 @@ and production web platforms.
 
 *Ordered by GitHub stars — most-starred first.*
 
-### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 48 · v3.0.0
+### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 49 · v3.0.0
 
 **Translate whole books, not sentences.** A PyQt6 desktop studio that turns PDF & EPUB
 books into fluent academic Persian — and back into English — one page at a time or an
