@@ -1,3 +1,9 @@
+### 🌐 Telegram: [@mohaka_programmer](https://t.me/mohaka_programmer)
+
+[![Telegram](https://img.shields.io/badge/Telegram-%40mohaka__programmer-2CA5E0?logo=telegram&logoColor=white)](https://t.me/mohaka_programmer)
+
+---
+
 # Hi, I'm Mohammad Hasan Kaman 👋
 
 Full-stack developer building **AI applications, developer tooling, and secure systems**.
