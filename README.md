@@ -32,7 +32,7 @@ and production web platforms.
 
 *Ordered by GitHub stars — most-starred first.*
 
-### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 58 · v3.0.0
+### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 60 · v3.0.0
 
 **Translate whole books, not sentences.** A PyQt6 desktop studio that turns PDF & EPUB
 books into fluent academic Persian — and back into English — one page at a time or an
