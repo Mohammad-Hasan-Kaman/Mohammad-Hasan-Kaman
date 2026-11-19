@@ -22,9 +22,9 @@ and production web platforms.
 
 ## 🧩 Languages
 
-![Python](https://img.shields.io/badge/Python-58.48%25-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-20.15%25-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-10.07%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-8.82%25-1572B6?style=for-the-badge&logo=css&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-2.45%25-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-70.56%25-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-14.62%25-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-7.07%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-5.94%25-1572B6?style=for-the-badge&logo=css&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-1.67%25-239120?style=for-the-badge&logo=csharp&logoColor=white)
 
-*Byte share across the 12 project repositories, from the GitHub `/languages` API.*
+*Byte share across the 11 public project repositories, from the GitHub `/languages` API.*
 
 ---
 
@@ -32,7 +32,7 @@ and production web platforms.
 
 *Ordered by GitHub stars — most-starred first.*
 
-### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 70 · v3.0.0
+### 🤖 [kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) · ⭐ 70 · v3.2.3
 
 **Translate whole books, not sentences.** A PyQt6 desktop studio that turns PDF & EPUB
 books into fluent academic Persian — and back into English — one page at a time or an
@@ -48,12 +48,12 @@ entire book unattended.
 - **RTL export** — HTML output shaped for right-to-left reading, plus EPUB.
 - **Privacy by design** — API keys encrypted with Windows DPAPI (labelled base64
   fallback), stored locally; the only network traffic is to the provider you configure.
-- **303 offline tests** that run headlessly — the core is deliberately Qt-free.
+- **365 offline tests** that run headlessly — the core is deliberately Qt-free.
 - Works with **Gemini** or any **OpenAI-compatible** server. Ships as a Windows
   `.exe` in [releases](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator/releases)
-  (current: **v3.0.0**).
+  (current: **v3.2.3**).
 
-### 🩺 [agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor) · ⭐ 5 · v0.2.0
+### 🩺 [agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor) · ⭐ 5 · v0.2.2
 
 **Diagnose why your LLM stream gave you nothing.** A zero-dependency Python CLI that
 reads raw SSE chat-completion captures and tells you exactly what went wrong — instead
@@ -73,7 +73,7 @@ of you staring at an empty response box.
 - **Usable as a library** — `from agent_stream_doctor import diagnose`.
 - Core is **stdlib only**; `--record` is the single optional dependency.
 
-### 🤖 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1 · v1.0.0
+### 🤖 [ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget) · ⭐ 1 · v2.0.0
 
 **An AI intake system for counseling centers — shipped as a Persian RTL chat widget.**
 The AI *is* the product: it talks to every visitor, runs the GHQ-28 wellbeing screening,
@@ -143,7 +143,6 @@ feedback that retrains the matching engine.
 | Project | What it does |
 |---|---|
 | **[quran-group-bot](https://github.com/Mohammad-Hasan-Kaman/quran-group-bot)** · ⭐ 1 | Serverless Bale bot that runs a 30-person weekly Quran juz reading circle — Cloudflare Workers + KV, cron-scheduled posts, rotating juz assignment, weekly hadith. |
-| **[youtube-downloader](https://github.com/Mohammad-Hasan-Kaman/youtube-downloader)** · ⭐ 1 | Windows YouTube downloader on yt-dlp with a Persian-language dark-mode GUI, three live progress bars, video/audio format selection and browser-cookie support. |
 | **[kaman-web-browser](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser)** · ⭐ 1 | Lightweight multi-tab Windows browser on Microsoft Edge WebView2 (Chromium) with smart URL-vs-search routing. |
 
 ---
@@ -184,7 +183,7 @@ feedback that retrains the matching engine.
 
 ## 📌 Currently
 
-- 🧠 Shipping **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) v3** — whole-book Persian translation with a QC loop and DPAPI-encrypted keys
+- 🧠 Shipping **[kaman-ai-translator](https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator) v3.2.3** — whole-book Persian translation with a QC loop and DPAPI-encrypted keys
 - 🩺 Running **[ai-counseling-widget](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-widget)** and **[ai-counseling-bot](https://github.com/Mohammad-Hasan-Kaman/ai-counseling-bot)** in production for counseling centers — live at **[kahaai.ir](https://kahaai.ir)**
 - 🩺 Turning real-world LLM-router debugging sessions into **[agent-stream-doctor](https://github.com/Mohammad-Hasan-Kaman/agent-stream-doctor)**
 - 🎓 Finishing secondary education (graduation expected mid-2028) while freelancing for international clients
